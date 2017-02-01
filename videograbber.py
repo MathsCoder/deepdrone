@@ -12,9 +12,14 @@ import math
 import random
 
 def run(send_url, recv_url, results_url, interval=50, drone=None, debug=True):
+	
+	
 
     # open the video stream
-    vidFile = cv2.VideoCapture(0)
+ 
+    vidFile = cv2.VideoCapture("/home/ubuntu/video.avi")
+
+    #vidFile = cv2.VideoCapture(0)
 
     if vidFile and vidFile.isOpened():
         print("Video stream opened")

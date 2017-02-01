@@ -3,7 +3,7 @@ import zmq
 import argparse
 import signal
 from utils import *
-from drone import Drone
+#from drone import Drone
 import datetime
 import pandas as pd
 import time

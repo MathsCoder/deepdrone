@@ -7,7 +7,8 @@ import signal
 import time
 import os
 from utils import *
-
+import sys
+sys.path.append("/home/ubuntu/pynb/caffe-cpu/python")
 # turn off log output when loading net
 os.environ['GLOG_minloglevel'] = '2'
 
@@ -29,8 +30,8 @@ def preprocessFrame(image):
 def load_model(model="bvlc_reference_caffenet"):
     # Path to caffe install
     # caffe_root = '~/deep-learning/caffe'
-    caffe_root = "~/git/caffe"
-    caffe_root = os.path.expanduser(caffe_root)
+    caffe_root = "/home/ubuntu/pynb/caffe-cpu"
+    #caffe_root = os.path.expanduser(caffe_root)
 
     # Set the right paths to your model definition file, pretrained model weights
     # and labels file. This example uses the pre-trained ILSVRC12 image classifier

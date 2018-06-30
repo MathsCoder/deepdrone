@@ -1,4 +1,5 @@
-Code I worked on back during my A-Level days with another Student, Jawad, at Skycap(now http://www.skeyebv.com/) while mentored by Dirk Gorrisen
+Code I worked on back during my A-Level days with another Student, Jawad, at Skycap(now http://www.skeyebv.com/) while mentored by Dirk Gorrisen.
+The code was further refactored and developed by my mentor:Dirk Gorrisen
 Demo:https://www.youtube.com/watch?v=PQyFV3_4QPM
 Code behind the blog post here:
 https://dirkgorissen.com/2015/12/24/deep-drone-v2/
